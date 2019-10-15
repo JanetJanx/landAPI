@@ -11,4 +11,4 @@ This project is about the creation of a Land Entry API with the following endpoi
 1. Clone the repo using git clone command via https / ssh
 
 ## Hosted on Heroku
-[Land API](https://limitless-anchorage-83587.herokuapp.com/api/v1/entries)
+[Land API](https://landentryapi.herokuapp.com/)
