@@ -2,3 +2,5 @@ api
 get-pip.py
 test.py
 .vscode
+__pycache__
+*.pyc

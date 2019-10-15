@@ -47,7 +47,7 @@ class AddNewLandEntry(Resource):
             farm_location = landdata.get('farm location')
             landsize = landdata.get('land size')
             soiltests = landdata.get('soil tests')
-            new_land_entry = LandEntry(increment_landentryId(), landowner, name_owner, farm_location, landsize, 
+            new_land_entry = LandEntry(increment_landentryId(), landowner, name_owner, farm_location, landsize,
             soiltests, get_timestamp())
             landentry = json.loads(new_land_entry.json())
             GetAllLandEntries.land_entries.append(landentry)
