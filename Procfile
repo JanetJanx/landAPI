@@ -1,1 +1,1 @@
-web: gunicorn myapp.entries:app
+web: gunicorn myapp.entries.landentries:app
